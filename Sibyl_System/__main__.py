@@ -96,7 +96,6 @@ async def send_help(event):
     else:
         return
 
-
 async def main():
     try:
         await make_collections()
