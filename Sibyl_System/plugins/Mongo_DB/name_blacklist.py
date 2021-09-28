@@ -25,3 +25,4 @@ async def update_wlc_blacklist(word, add=False):
 async def get_wlc_bl():
     json = await db.find_one({"_id": 2})
     return json.get("blacklisted_wlc", [])
+
